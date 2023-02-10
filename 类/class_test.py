@@ -14,8 +14,9 @@ class people():
     def static_method():
         print("类方法")
 
+if __name__ == "__main__":
 
-dd = people("22",'2')
-dd.speak()
-print(dd.name)
-print(people.fuse)
+    dd = people("22",'2')
+    dd.speak()
+    print(dd.name)
+    print(people.fuse)
